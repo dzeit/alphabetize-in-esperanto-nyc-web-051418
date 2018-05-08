@@ -1,6 +1,6 @@
 require 'pry'
 
-
+ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
   esp_phrase = arr.map {|phrase| phrase.split("")} 
