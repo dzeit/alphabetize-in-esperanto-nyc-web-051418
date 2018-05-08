@@ -8,4 +8,4 @@ def alphabetize(arr)
 end
 
 # Shorter method
-#arr.sort_by {|phrase| phrase.split("").map{|letter| ALPHABET.index(letter)}}
+#arr.sort_by {|phrase| phrase.split("").map{|letter| ALPHABET.index(letter)}} 
