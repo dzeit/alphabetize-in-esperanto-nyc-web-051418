@@ -1,3 +1,7 @@
+require 'pry'
+
 def alphabetize(arr)
-  # code here
+  esp_phrase = arr.map {|phrase| phrase.split("")} 
+  arr.map {|phrase| phrase.split("")} 
+  esp_phrase.sort_by! {|phrase| phrase[0]}
 end
